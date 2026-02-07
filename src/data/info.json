@@ -60,19 +60,21 @@
         {
           "description": "AI-Powered Health Insurance Platform",
           "details": [
-            "AI agents specialized for health insurance",
+            "Health insurance specialized AI agents",
             "AI-guided workflows and interfaces",
-            "Health Insurance Request for Proposal process workflow digitalization",
+            "Health insurance Request for Proposal process workflow digitalization",
             "Employee health insurance management, dashboard, and statistics"
           ]
         },
         {
           "description": "Higher Education And Career Matching Platform",
           "details": [
-            "School-student matchmaking platform",
+            "School and student matchmaking platform",
             "Student search platform",
+            "Content and media posting platform",
             "Online post content management",
-            "Affiliate management platform"
+            "Affiliate management platform",
+            "Subscription system"
           ]
         },
         {
@@ -80,7 +82,7 @@
           "details": [
             "Student health insurance enrollment platform",
             "Student health insurance management",
-            "System configuration of onboarded schools"
+            "Onboarded schools system configuration"
           ]
         },
         {
@@ -93,7 +95,11 @@
         },
         {
           "description": "Logistics Platform",
-          "details": ["Logistic workflow management interfaces", "Logistics communication platform"]
+          "details": [
+            "Logistics workflow management interfaces",
+            "Logistics communication platform",
+            "Logistics quote and costing system"
+          ]
         },
         {
           "description": "Company Website",
@@ -113,7 +119,11 @@
         },
         {
           "description": "Online Tutoring Platform",
-          "details": ["Tutor scheduling system", "Tutor student management platform"]
+          "details": [
+            "Tutor scheduling system",
+            "Tutor student management platform",
+            "Tutor payment system"
+          ]
         },
         {
           "description": "Mobile Game Competitor Matching Platform",
