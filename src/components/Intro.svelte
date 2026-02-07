@@ -11,13 +11,20 @@
   been in the software industry for {industryYearsCount}+ years. I have worked on projects in
   industries like Real Estate, Insurance, Education, and Cinema, being part of teams that develop
   websites, web applications and web-based platforms and systems.
-  <a href="/about"> Click here to read a bit more about me! </a>
+  <!-- <a href="/about"> Click here to read a bit more about me! </a> -->
+</p>
+<p class="resume-link indent-after-prompt">
+  <a href="/resume">Check my resume here</a>
 </p>
 
 <style>
   .intro {
     margin-top: -16px;
-    padding-bottom: 22px;
+    padding-bottom: 12px;
     padding-inline-end: 42px;
+  }
+
+  .resume-link {
+    padding-bottom: 22px;
   }
 </style>

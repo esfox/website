@@ -1,0 +1,168 @@
+{
+  "fullname": "Charles Christian P. Sabarillo",
+  "shortenedFullName": "Charles Sabarillo",
+  "contact": {
+    "address": "Concepcion Uno, Marikina City, Metro Manila, Philippines",
+    "phone": "+639761847494",
+    "email": "sabarillo.charles@gmail.com",
+    "github": "https://github.com/esfox",
+    "linkedIn": "https://www.linkedin.com/in/charles-sabarillo-96b432181"
+  },
+  "experience": [
+    {
+      "role": "Full-stack Software Engineer",
+      "place": "Fulcrum Solutions Stack LLC",
+      "timePeriod": "February 2022 - Present (4+ years)",
+      "details": [
+        "Built frontends using React, Next.js, and Angular",
+        "Built backends using Node.js and .NET Core",
+        "Built projects with serverless architectures",
+        "Built projects with AI features and integrations",
+        "Used AWS and Vercel for infrastructure and deployment",
+        "Contributed to projects based in the United States which include the following:",
+        "AI-Powered Health Insurance Platform",
+        "Higher Education And Career Matching Platform",
+        "Logistics Platform",
+        "Property Auctioning Platform",
+        "College Student Health Insurance Platform",
+        "Company Website"
+      ]
+    },
+    {
+      "role": "Full-stack Software Engineer",
+      "place": "Yondu Inc.",
+      "timePeriod": "August 2021 - February 2022 (6 months)",
+      "details": [
+        "Built frontend using Nuxt.js (Vue.js framework)",
+        "Led the frontend development of a project",
+        "Proposed and implemented coding standards and guidelines in frontend development",
+        "Contributed in venture projects which include the following:",
+        "End-of-life Planning Website",
+        "Online Tutoring Platform",
+        "Mobile Game Competitor Matching Platform"
+      ]
+    },
+    {
+      "role": "Junior Web Developer",
+      "place": "NMI Solutions",
+      "timePeriod": "October 2019 - June 2021 (1 year, 9 months)",
+      "details": [
+        "Led the development of a web-based system, both in the front and backend",
+        "Developed websites and web-based systems with HTML, CSS, JavaScript, Node.js, PHP, and SQL",
+        "Built Node.js backend REST APIs, React frontends, and full-stack applications using CodeIgniter",
+        "Added improvements and refactors to existing tools and frameworks",
+        "Introduced new technologies to the team like Node.js, React, Docker, and NGINX"
+      ]
+    },
+    {
+      "role": "Backend Web Developer Intern",
+      "place": "98Labs Inc.",
+      "timePeriod": "January 2019 - August 2019 (8 months)",
+      "details": ["Backend development internship experience"]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Frontend Web Development",
+      "categories": [
+        {
+          "name": "Languages",
+          "items": ["HTML", "CSS", "JavaScript", "TypeScript"]
+        },
+        {
+          "name": "Frameworks",
+          "items": ["React", "Angular", "Vue", "Svelte", "Vite", "Next.js", "Nuxt", "SvelteKit"]
+        },
+        {
+          "name": "Libraries",
+          "items": [
+            "Tailwind",
+            "shadcn / Radix UI",
+            "SCSS",
+            "TanStack",
+            "Zod",
+            "tRPC",
+            "PrimeReact",
+            "Bootstrap"
+          ]
+        },
+        {
+          "name": "Services",
+          "items": ["Vercel", "Netlify", "Cloudflare Pages", "AWS Amplify"]
+        },
+        {
+          "name": "Tools",
+          "items": ["Figma", "v0", "Claude (AI)", "Git", "GitHub"]
+        }
+      ]
+    },
+    {
+      "name": "Backend Web Development",
+      "categories": [
+        {
+          "name": "Languages",
+          "items": ["JavaScript", "TypeScript", "C#", "PHP", "SQL"]
+        },
+        {
+          "name": "Concepts",
+          "items": ["Relational Databases", "REST APIs", "OpenAPI", "WebSockets"]
+        },
+        {
+          "name": "Frameworks",
+          "items": [
+            "Node.js",
+            "NestJS",
+            "Express",
+            "SST",
+            "Serverless Framework",
+            ".NET Core",
+            "Laravel",
+            "CodeIgniter",
+            "Strapi"
+          ]
+        },
+        {
+          "name": "Databases",
+          "items": ["Postgres", "MySQL", "SQL Server", "SQLite", "DynamoDB", "AWS Neptune"]
+        },
+        {
+          "name": "Libraries",
+          "items": ["DrizzleORM", "TypeORM", "tRPC", "Zod", "Knex"]
+        },
+        {
+          "name": "Services",
+          "items": ["AWS", "Supabase", "Turso"]
+        },
+        {
+          "name": "Tools",
+          "items": ["Docker", "Redis", "LocalStack", "Claude (AI)", "Git", "GitHub"]
+        }
+      ]
+    }
+  ],
+  "otherSkills": [
+    "Agile Software Development experience",
+    "Agentic AI-assisted coding",
+    "Linux OS usage and configuration experience",
+    "Jira and Confluence usage experience",
+    "Vim proficiency",
+    "Typing proficiency"
+  ],
+  "softSkills": [
+    "Keeps up-to-date with tech trends",
+    "Fast learner",
+    "Clarifies specs and requirements",
+    "Actively asks questions",
+    "Output-oriented",
+    "English proficiency",
+    "Interpersonal communication skills",
+    "Enthusiasm to code"
+  ],
+  "education": [
+    {
+      "major": "BS in Entertainment and Multimedia Computing with specialization in Game Development",
+      "school": "CIIT College of Arts and Technology",
+      "timePeriod": "August 2015 - September 2019"
+    }
+  ]
+}
