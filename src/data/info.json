@@ -135,8 +135,8 @@
       "company": "GMA New Media Inc./NMI Solutions",
       "projects": [
         {
-          "description": "Housing development website",
-          "details": ["Web pages", "Interactive SVG functionality"]
+          "description": "Real-estate website",
+          "details": ["Lot availability map", "Real-estate lot reservation platform"]
         },
         {
           "description": "Cinema ticketing system and website",
