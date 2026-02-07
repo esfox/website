@@ -1,6 +1,7 @@
 :root {
   --background: #303030;
   --foreground: #ddd;
+  --foreground-muted: #999;
   --green: #00d75f;
   --black: #262626;
   --yellow: #fdbc4b;

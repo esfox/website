@@ -23,6 +23,7 @@
     "./svelte-kit",
     "./static",
     "./deno.lock",
+    "./pnpm.lock",
     "./package.json",
     ".lintstagedrc",
     "./dist",
@@ -33,6 +34,7 @@
     "./.prettierignore",
     "./.eslintrc.cjs",
     "./.eslintignore",
-    "./.eslintcache"
+    "./.eslintcache",
+    "./src/data/info.json"
   ]
 }

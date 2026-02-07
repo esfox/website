@@ -1,0 +1,290 @@
+{
+  "fullname": "Charles Christian P. Sabarillo",
+  "shortenedFullName": "Charles Sabarillo",
+  "contact": {
+    "address": "Concepcion Uno, Marikina City, Metro Manila, Philippines",
+    "phone": "+639761847494",
+    "email": "sabarillo.charles@gmail.com",
+    "github": "https://github.com/esfox",
+    "linkedIn": "https://www.linkedin.com/in/charles-sabarillo-96b432181"
+  },
+  "experience": [
+    {
+      "role": "Full-stack Software Engineer",
+      "place": "Fulcrum Solutions",
+      "timePeriod": "February 2022 - Present (4+ years)",
+      "details": [
+        "Experience with high client demands and high pressure projects",
+        "Built frontends using React, Next.js, and Angular",
+        "Built backends using Node.js and .NET Core",
+        "Built projects with AI features and integrations",
+        "Built projects with serverless architectures",
+        "Used AWS and Vercel for infrastructure and deployment",
+        "Introduced and implemented web frameworks, libraries, and tools"
+      ]
+    },
+    {
+      "role": "Full-stack Software Engineer",
+      "place": "Yondu Inc.",
+      "timePeriod": "August 2021 - February 2022 (6 months)",
+      "details": [
+        "Built frontends using Nuxt.js (Vue.js framework)",
+        "Led the frontend development of a project",
+        "Proposed and implemented coding standards and guidelines in frontend development",
+        "Contributed in venture, greenfield projects"
+      ]
+    },
+    {
+      "role": "Junior Web Developer",
+      "place": "GMA New Media Inc./NMI Solutions",
+      "timePeriod": "October 2019 - June 2021 (1 year, 9 months)",
+      "details": [
+        "Led the full-stack development of a web-based, real-time system",
+        "Developed websites and web-based systems with HTML, CSS, JavaScript, Node.js, PHP, and SQL",
+        "Built Node.js backend REST APIs, React frontends, and full-stack applications using CodeIgniter",
+        "Added improvements and refactors to existing tools and frameworks",
+        "Introduced new technologies like Node.js, React, and Docker"
+      ]
+    },
+    {
+      "role": "Backend Web Developer Intern",
+      "place": "98Labs Inc.",
+      "timePeriod": "January 2019 - August 2019 (8 months)",
+      "details": ["Backend development with TypeScript experience"]
+    }
+  ],
+  "works": [
+    {
+      "company": "Fulcrum Solutions",
+      "projects": [
+        {
+          "description": "AI-Powered Health Insurance Platform",
+          "details": [
+            "AI agents specialized for health insurance",
+            "AI-guided workflows and interfaces",
+            "Health Insurance Request for Proposal process workflow digitalization",
+            "Employee health insurance management, dashboard, and statistics"
+          ]
+        },
+        {
+          "description": "Higher Education And Career Matching Platform",
+          "details": [
+            "School-student matchmaking platform",
+            "Student search platform",
+            "Online post content management",
+            "Affiliate management platform"
+          ]
+        },
+        {
+          "description": "College Student Health Insurance Platform",
+          "details": [
+            "Student health insurance enrollment platform",
+            "Student health insurance management",
+            "System configuration of onboarded schools"
+          ]
+        },
+        {
+          "description": "Property Auctioning Platform",
+          "details": [
+            "Bidding system",
+            "Delinquent property search platform",
+            "Document parsing and classification pipeline"
+          ]
+        },
+        {
+          "description": "Logistics Platform",
+          "details": ["Logistic workflow management interfaces", "Logistics communication platform"]
+        },
+        {
+          "description": "Company Website",
+          "details": ["Company information web pages", "Content Management System"]
+        }
+      ]
+    },
+    {
+      "company": "Yondu Inc.",
+      "projects": [
+        {
+          "description": "End-of-life Planning Website",
+          "details": [
+            "End-of-life planning guides and walkthroughs",
+            "End-of-life insurance acquisition platform"
+          ]
+        },
+        {
+          "description": "Online Tutoring Platform",
+          "details": ["Tutor scheduling system", "Tutor student management platform"]
+        },
+        {
+          "description": "Mobile Game Competitor Matching Platform",
+          "details": ["Mobile game matchmaking platform", "Rewards system"]
+        }
+      ]
+    },
+    {
+      "company": "GMA New Media Inc./NMI Solutions",
+      "projects": [
+        {
+          "description": "Housing development website",
+          "details": ["Web pages", "Interactive SVG functionality"]
+        },
+        {
+          "description": "Cinema ticketing system and website",
+          "details": [
+            "Online, real-time ticket booking system",
+            "Theater seat availability display",
+            "Teller ticketing system"
+          ]
+        },
+        {
+          "description": "Facial Recognition Employee Time Tracking",
+          "details": ["Facial recognition system", "Automated time tracking system"]
+        }
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Frontend Web Development",
+      "categories": [
+        {
+          "name": "Languages",
+          "items": ["HTML", "CSS", "JavaScript", "TypeScript"]
+        },
+        {
+          "name": "Frameworks",
+          "items": ["React", "Angular", "Vue", "Svelte", "Vite", "Next.js", "Nuxt", "SvelteKit"]
+        },
+        {
+          "name": "Libraries",
+          "items": [
+            "Tailwind",
+            "shadcn",
+            "Radix UI",
+            "SCSS",
+            "PrimeReact",
+            "Bootstrap",
+            "TanStack",
+            "Zod",
+            "tRPC",
+            "Swagger"
+          ]
+        },
+        {
+          "name": "Services",
+          "items": ["Vercel", "Netlify", "Cloudflare Pages", "AWS Amplify"]
+        },
+        {
+          "name": "Tools",
+          "items": ["Figma", "Git", "GitHub"]
+        }
+      ]
+    },
+    {
+      "name": "Backend Web Development",
+      "categories": [
+        {
+          "name": "Languages",
+          "items": ["JavaScript", "TypeScript", "C#", "PHP", "SQL"]
+        },
+        {
+          "name": "Concepts",
+          "items": ["Relational Databases", "REST APIs", "OpenAPI", "WebSockets", ""]
+        },
+        {
+          "name": "Frameworks",
+          "items": [
+            "Node.js",
+            "NestJS",
+            "Express",
+            "SST",
+            "Serverless Framework",
+            ".NET Core",
+            "Laravel",
+            "CodeIgniter",
+            "Strapi",
+            "tRPC"
+          ]
+        },
+        {
+          "name": "Databases",
+          "items": ["Postgres", "MySQL", "SQL Server", "SQLite", "DynamoDB", "AWS Neptune"]
+        },
+        {
+          "name": "Libraries",
+          "items": ["DrizzleORM", "TypeORM", "tRPC", "Zod", "Knex", "Centrifugo"]
+        },
+        {
+          "name": "Services",
+          "items": ["AWS", "Supabase", "Turso"]
+        },
+        {
+          "name": "Tools",
+          "items": ["Docker", "Redis", "LocalStack", "Claude (AI)", "Git", "GitHub"]
+        }
+      ]
+    },
+    {
+      "name": "Infrastructure",
+      "categories": [
+        {
+          "name": "Cloud",
+          "items": ["AWS", "Vercel", "Netlify", "Cloudflare"]
+        },
+        {
+          "name": "AI",
+          "items": ["AWS Bedrock", "AWS Bedrock AgentCore"]
+        },
+        {
+          "name": "Tools",
+          "items": ["Linux", "Docker", "Redis", "Nginx", "Apache"]
+        }
+      ]
+    },
+    {
+      "name": "Tools",
+      "categories": [
+        {
+          "name": "AI",
+          "items": ["Kiro CLI", "Opencode", "ChatGPT", "Claude", "Gemini", "Cursor"]
+        },
+        {
+          "name": "Project Management",
+          "items": ["Jira", "Confluence", "Trello", "Notion", "Slack", "Microsoft Teams"]
+        },
+        {
+          "name": "Code",
+          "items": ["neovim", "vim", "Git", "GitHub", "tmux"]
+        },
+        {
+          "name": "Design",
+          "items": ["Figma", "Adobe Photoshop", "GIMP"]
+        }
+      ]
+    }
+  ],
+  "otherSkills": [
+    "Agentic AI-assisted coding",
+    "AI utilization",
+    "Prompt Engineering",
+    "Agile Software Development",
+    "Linux operating system Knowledge and Configuration",
+    "Typing proficiency"
+  ],
+  "softSkills": [
+    "Up-to-date with tech trends",
+    "Fast learner",
+    "Clarifies specs and requirements",
+    "Actively asks questions",
+    "Output-oriented",
+    "English proficiency",
+    "Friendly"
+  ],
+  "education": [
+    {
+      "major": "BS in Entertainment and Multimedia Computing with specialization in Game Development",
+      "school": "CIIT College of Arts and Technology",
+      "timePeriod": "August 2015 - September 2019"
+    }
+  ]
+}
