@@ -118,11 +118,13 @@
         <ul class="job-details">
           {#each work.projects as project}
             <li>{project.description}</li>
-            {#each project.details as detail}
-              <li class="sub-item">
-                {detail.replace(/^\s{2}/, '')}
-              </li>
-            {/each}
+            {#if project.details}
+              {#each project.details as detail}
+                <li class="sub-item">
+                  {detail.replace(/^\s{2}/, '')}
+                </li>
+              {/each}
+            {/if}
           {/each}
         </ul>
       </div>

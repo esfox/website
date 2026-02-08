@@ -162,6 +162,9 @@
         {
           "description": "Personal Tax Calculation Web App",
           "details": ["Calculated tax interface", "Income ledger"]
+        },
+        {
+          "description": "Personal Website and Resume Web Page"
         }
       ]
     }
