@@ -151,6 +151,19 @@
           "details": ["Facial recognition system", "Automated time tracking system"]
         }
       ]
+    },
+    {
+      "company": "Non-Company Work/Side Projects",
+      "projects": [
+        {
+          "description": "Seafarer Apparel Store Orders Management System",
+          "details": ["Orders management interface", "Order form interface"]
+        },
+        {
+          "description": "Personal Tax Calculation Web App",
+          "details": ["Calculated tax interface", "Income ledger"]
+        }
+      ]
     }
   ],
   "skills": [

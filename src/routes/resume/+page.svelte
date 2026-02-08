@@ -14,9 +14,9 @@
     education,
   } = json;
 
-  // function downloadPDF() {
-  //   window.print();
-  // }
+  function openPrintableResume() {
+    window.open('/resume/print', '_blank', 'noopener');
+  }
 </script>
 
 <svelte:head>
@@ -26,10 +26,6 @@
 <PromptString />
 <div class="command heading">
   <p class="indent-after-prompt">cat resume.html</p>
-  <!-- <button class="pdf-download-button" on:click={downloadPDF}> -->
-  <!--   <i class="fa-solid fa-file-pdf"></i> -->
-  <!--   Download as PDF -->
-  <!-- </button> -->
 </div>
 <div class="resume-container" id="resume-content">
   <header class="resume-header">
@@ -65,18 +61,7 @@
         </div>
         <ul class="job-details">
           {#each job.details as detail}
-            <li
-              class={detail.startsWith('  ') ? 'sub-item' : ''}
-              class:sub-item={detail.startsWith('AI-') ||
-                detail.startsWith('Higher') ||
-                detail.startsWith('Logistics') ||
-                detail.startsWith('Property') ||
-                detail.startsWith('College') ||
-                detail.startsWith('Company') ||
-                detail.startsWith('End-of-life') ||
-                detail.startsWith('Online') ||
-                detail.startsWith('Mobile')}
-            >
+            <li class={detail.startsWith('  ') ? 'sub-item' : ''}>
               {detail.replace(/^\s{2}/, '')}
             </li>
           {/each}
@@ -170,6 +155,13 @@
       >
     </div>
   </div>
+</div>
+
+<div class="pdf-download-button-wrapper">
+  <button class="pdf-download-button" type="button" on:click={openPrintableResume}>
+    <i class="fa-solid fa-file-pdf"></i>
+    Download PDF
+  </button>
 </div>
 
 <style lang="scss">
@@ -329,25 +321,34 @@
     }
   }
 
-  // .pdf-download-button {
-  //   background: var(--green);
-  //   border: none;
-  //   padding: 9px 12px;
-  //   border-radius: 6px;
-  //   font-size: 0.8rem;
-  //   cursor: pointer;
-  //   display: inline-flex;
-  //   align-items: center;
-  //   gap: 8px;
-  //
-  //   &:hover {
-  //     background: color-mix(in srgb, var(--green) 70%, transparent);
-  //   }
-  //
-  //   i {
-  //     font-size: 1.1rem;
-  //   }
-  // }
+  .pdf-download-button-wrapper {
+    text-align: end;
+    padding: 28px;
+    padding-top: 12px;
+
+    .pdf-download-button {
+      background: var(--green);
+      border: none;
+      padding: 9px 12px;
+      border-radius: 6px;
+      font-size: 0.8rem;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: #08120c;
+      z-index: 10;
+      letter-spacing: -0.04rem;
+
+      &:hover {
+        background: color-mix(in srgb, var(--green) 70%, transparent);
+      }
+
+      i {
+        font-size: 1.1rem;
+      }
+    }
+  }
 
   @media (max-width: 768px) {
     .resume-container {

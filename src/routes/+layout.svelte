@@ -2,29 +2,32 @@
   import '../styles/reset.css';
   import '@fortawesome/fontawesome-free/css/all.min.css';
   import '../styles/main.css';
+  import { page } from '$app/stores';
+
+  let currentPath = $page.url.pathname;
 </script>
 
-<img src="kubuntu-wallpaper.jpg" class="wallpaper" alt="background wallpaper" />
-<div class="main-wrapper">
-  <main class="main">
-    <div class="titlebar">
-      <img src="alacritty.svg" alt="Alacritty" />
-      <p>Alacritty</p>
-      <div class="icons">
-        <img src="minimize.svg" alt="minimize" />
-        <img src="maximize.svg" alt="maximize" />
-        <img src="close.svg" alt="close" />
+{#if currentPath === '/resume/print'}
+  <slot />
+{:else}
+  <img src="kubuntu-wallpaper.jpg" class="wallpaper" alt="background wallpaper" />
+  <div class="main-wrapper">
+    <main class="main">
+      <div class="titlebar">
+        <img src="alacritty.svg" alt="Alacritty" />
+        <p>Alacritty</p>
+        <div class="icons">
+          <img src="minimize.svg" alt="minimize" />
+          <img src="maximize.svg" alt="maximize" />
+          <img src="close.svg" alt="close" />
+        </div>
       </div>
-    </div>
-    <slot />
-  </main>
-</div>
+      <slot />
+    </main>
+  </div>
+{/if}
 
 <style lang="scss">
-  :global(body) {
-    background: #0d0d0d;
-  }
-
   .main-wrapper {
     display: grid;
     height: 100%;
